@@ -1,5 +1,7 @@
 package io.turntabl.scalagettingstarted
 
+import io.turntabl.scalagettingstarted.TLCStudent.TLCStudent
+
 object MyApp extends App {
 
     ////    Printing out my name and my hometown
@@ -20,6 +22,9 @@ object MyApp extends App {
 //    case _ => false}
 //   print( isWeekendDay("Monday"))
 
+  val student1 = new TLCStudent("bill","ali",200,"CEO")
+  val student2 = new TLCStudent("sammy","kwakye",400,"Dev")
+  val student3 = new TLCStudent("Moses","ali",600,"Artist")
 
 
 
